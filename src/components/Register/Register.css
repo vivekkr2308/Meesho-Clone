@@ -1,0 +1,90 @@
+.dd--flex--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dd--main--container--100vh {
+    min-height: 100vh;
+  }
+  
+  .dd--flex-direction--column {
+    flex-direction: column;
+  }
+  
+  .dd--border-radius--5px {
+    border-radius: 5px;
+  }
+  .dd--border-radius--8px {
+    border-radius: 8px;
+  }
+  
+  .dd--outline--none {
+    outline: none;
+  }
+  
+  .dd--cursor--pointer {
+    cursor: pointer;
+  }
+  
+  
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 300px;
+    min-height: 400px;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .card-heading {
+    font-size: 30px;
+  }
+  
+  .full-name {
+    margin-top: 16px;
+  }
+  .form-input {
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .login-form-button {
+    font-size: 20px;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    color: #777;
+  }
+  .login-form-button:hover {
+    background-color: #dedbdb;
+  }
+  .google-form-button {
+    background-color: #6f8685;
+    padding: 6px 12px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .google-form-button:hover {
+    background-color: #127184;
+    transition: ease-in-out 0.4s;
+  }
+  .hr {
+    height: 1px;
+    width: 200px;
+    color: #b1a1a119;
+  }
+  
+  .login-form-register-button {
+    color: #27bbd8;
+    padding: 0 8px;
+  }
+  
+  .login-form-register-button:hover {
+    color: #127184;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    text-decoration: underline;
+  }
+  

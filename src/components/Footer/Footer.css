@@ -1,0 +1,91 @@
+/* Default styles */
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f4f4;
+    padding: 30px;
+}
+
+.footerContainer h3 {
+    color: #555;
+    margin: 10px 0;
+}
+
+.sandsarif {
+    font-family: sans-serif;
+}
+
+.footerimg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.footerimglink {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.footerimg img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.first h1 {
+    margin: 10px 0px;
+}
+
+.five {
+    flex-basis: 25%;
+}
+
+.five h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+.five p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.trusted {
+    margin-top: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 1024px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-left:10px;
+    }
+
+    .five {
+        flex-basis: 100%;
+        margin-top: 15px;
+        margin:0px;
+    }
+    .five p{
+        
+       font-size: 20px;
+    }
+
+    .third{
+        display:none;
+    }
+    .four {
+        display:none;
+    }
+    .second{
+        display:none;
+    }
+}

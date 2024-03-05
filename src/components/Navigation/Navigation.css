@@ -1,0 +1,67 @@
+/* Default styles for larger screens */
+nav {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 54px;
+    
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    
+}
+
+nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: var(--hoverTextColor);
+    border-bottom: 4px solid var(--hoverTextColor);
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 1024px) {
+  
+    nav ul {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 5px;
+        
+        
+        
+    /* align-items: center; Stack list items vertically */
+         /* Align items to the start of the container */
+    }
+
+    nav ul li {
+        width: 50%; /* Make each list item full width */
+        margin-bottom: 10px; /* Add spacing between list items */
+   
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 0; /* Remove margin from the last list item */
+    }
+
+    /* .beautinhealth , .Jewellery{
+        display: none;
+    } */
+    .items{
+        display: none;
+    }
+}

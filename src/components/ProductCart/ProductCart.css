@@ -1,0 +1,118 @@
+.cartcontainer1 {
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+.cartcontainer1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cartcontainer1 img {
+    max-height: 180px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.cartcontainer1 h2 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.flexcontainer1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.card--price {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.onwards {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #888;
+    margin-left: 4px;
+}
+.rating1 {
+    background-color: #36B37E;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+.reviews1 {
+    font-size: 14px;
+    color: #888;
+    margin-left: 5px;
+}
+
+
+/* Responsive Styles for Cart Container */
+
+/* Mobile View */
+@media screen and (max-width: 1024px) {
+    
+    .cartcontainer1 {
+     display:grid;
+     align-item:center;
+      padding: 1px;
+      margin-left:30px;
+      
+    }
+  
+    .cartcontainer1 img {
+      max-height: 110px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+  
+    .flexcontainer1 {
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+    }
+  
+    .card--price {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+  
+    .onwards {
+      padding-top: 5px;
+      font-size: 10px;
+      margin-left: 2px;
+    }
+  
+    .rating1,
+    .reviews1 {
+      margin-top: 2px;
+      font-size: 10px;
+    }
+
+   
+      .productList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+  }
+  
+  
+  

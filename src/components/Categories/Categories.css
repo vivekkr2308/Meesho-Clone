@@ -1,0 +1,68 @@
+@media only screen and (max-width: 768px) {
+    .top{
+        display:none;
+        
+    }
+.topCategoriesHeading{
+    width:1600px;
+    margin-left:-260px;
+    font-size:20px;
+    
+
+}
+
+.topCategoriesHeading h1 {
+    font-size:25px;
+}
+    .horizontalLine{
+        display:none;
+    }
+   .topCategoreisImage{
+    width:222px;
+    height:200px;
+    margin-left:25px;
+   }
+   .firstimage{
+    height:210.84px;
+   }
+
+   .essentialContaienr, .essential_item{
+    display:none;
+   }
+
+   .meesho_supper_container{
+    
+     margin:12px;
+   }
+   .becomesellerBanner_Container{
+    width:470px;
+    margin:12px;
+   }
+   .becomeSeller_content_content h1{
+    margin-right:12px
+    
+   }
+   .start{
+    font-size:20px;
+   }
+   .become{
+    margin-right: 30px;
+   }
+
+   .meesho_supper_container{
+    width:455px;
+    margin-left:20px;
+   }
+
+   .signup_btn_now{
+    display:none;
+   }
+
+   .meesho_supper_container_content_content h1{
+    font-size: 10px;
+   }
+   .meesho_supper_container_content_content p{
+    font-size: 7px;
+   }
+  
+}

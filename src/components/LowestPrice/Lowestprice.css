@@ -1,0 +1,36 @@
+/* Default styles */
+.lowestpriceContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top:7px;
+}
+
+.lowestPrice_text {
+    max-width: 500px;
+}
+
+.lowestPriceWhay {
+    display: flex;
+    gap: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 1024px) {
+    .lowestpriceContainer {
+        flex-direction: rows;
+        text-align: center;
+        margin-top:35px;
+    
+    }
+
+    .lowestPrice_text {
+        max-width: 100%;
+        margin-bottom: 20px;
+        
+    }
+    .lowestpriceContainer h1{
+        font-size: 25px;
+    }
+}

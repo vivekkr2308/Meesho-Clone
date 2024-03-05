@@ -1,0 +1,157 @@
+/* Default styles */
+img {
+    width: 100%;
+}
+
+.header {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logoContainer {
+    width: 155px;
+}
+
+.searchInputContainer {
+    width: 400px;
+    height: 45px;
+    outline: 1px solid rgb(126, 126, 126);
+    display: flex;
+    margin-left: 25px;
+    border-radius: 4px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+
+.login:hover{
+    background-color: #0b505ec4;
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+    .header {
+        
+        padding: 10px 20px;
+        width:auto;
+        
+        /* outline:none; */
+        
+        
+        
+    }
+
+    .searchInputContainer{
+        width: auto;
+    }
+
+    .login:hover{
+    background-color: #0b505ec4;
+    width: auto;
+}
+    
+    .headerLeft {
+        
+        margin-top: auto;
+        margin-left: auto;
+        gap:60px;
+        outline:none;
+    }
+
+    
+    .headerRight {
+        /* display:none; */
+        margin-top: auto;
+        gap:60px;
+        
+    }
+
+    .downloadContainer {
+        padding-right: 10px;
+    }
+
+    .downloadHoverBtnContainer {
+        width: auto;
+    }
+
+    .becomeSupplierContainer {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        padding: 0px;
+        margin-top:auto;
+    }
+
+    nav ul li {
+        margin: auto;
+        text-align:center;
+        gap: 5px;
+    }
+}
+
+
+/* Mobile View
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .headerLeft {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logoContainer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .searchInputContainer {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .searchInputContainer input {
+        width: 100%;
+    }
+
+    .headerRight {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .downloadContainer,
+    .becomeSupplierContainer {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .downloadHoverBtnContainer {
+        width: 100%;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+} */
